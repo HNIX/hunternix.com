@@ -51,7 +51,8 @@
             "yarn production",
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
             "@php artisan key:generate",
-            "@php please ssg:generate"
+            "@php please ssg:generate",
+            "@php artisan sitemap"
         ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
