@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "763654013cdb9359745cba57ea75a789",
+    "content-hash": "7b4d43a88a656e4447eae111c7e0eb0b",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3556,16 +3556,16 @@
         },
         {
             "name": "statamic/ssg",
-            "version": "dev-master",
+            "version": "0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/ssg.git",
-                "reference": "ead8bfa1b77333dc0e137b6396d8e91066bd4ebf"
+                "reference": "d82e7cd9194acffbb2ba420138166dfa1c8d13f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/ssg/zipball/ead8bfa1b77333dc0e137b6396d8e91066bd4ebf",
-                "reference": "ead8bfa1b77333dc0e137b6396d8e91066bd4ebf",
+                "url": "https://api.github.com/repos/statamic/ssg/zipball/d82e7cd9194acffbb2ba420138166dfa1c8d13f1",
+                "reference": "d82e7cd9194acffbb2ba420138166dfa1c8d13f1",
                 "shasum": ""
             },
             "require": {
@@ -3574,7 +3574,6 @@
             "require-dev": {
                 "orchestra/testbench": "^4.0"
             },
-            "default-branch": true,
             "type": "statamic-addon",
             "extra": {
                 "statamic": {
@@ -3598,7 +3597,7 @@
                 "issues": "https://github.com/statamic/ssg/issues",
                 "source": "https://github.com/statamic/ssg/tree/master"
             },
-            "time": "2020-12-10T00:09:22+00:00"
+            "time": "2020-08-21T21:18:00+00:00"
         },
         {
             "name": "statamic/stringy",
@@ -9205,9 +9204,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "statamic/ssg": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
