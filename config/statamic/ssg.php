@@ -44,7 +44,10 @@ return [
         public_path('js') => 'js',
         public_path('images') => 'images',
         public_path('fonts') => 'fonts',
-        public_path('favicon.png') => 'favicon.pngs',
+        public_path('robots.txt') => 'robots.txt',
+        public_path('favicon.ico') => 'favicon.ico',
+        public_path('manifest.json') => 'manifest.json',
+        public_path('sw.js') => 'sw.js',
     ],
 
     'symlinks' => [
